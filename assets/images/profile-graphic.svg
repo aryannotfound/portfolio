@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 448" fill="none">
+  <defs>
+    <pattern id="grid" width="29" height="29" patternUnits="userSpaceOnUse"><path d="M29 0H0v29" stroke="#abc4ff" stroke-opacity=".13"/></pattern>
+    <radialGradient id="light" cx=".68" cy=".33" r=".75"><stop stop-color="#254fa8"/><stop offset="1" stop-color="#101c36"/></radialGradient>
+    <linearGradient id="panel" x2=".95" y2="1"><stop stop-color="#567ef0" stop-opacity=".8"/><stop offset="1" stop-color="#142b5f" stop-opacity=".6"/></linearGradient>
+    <linearGradient id="bright" x2=".75" y2=".65"><stop stop-color="#f6f9ff"/><stop offset="1" stop-color="#9bb9ff"/></linearGradient>
+    <linearGradient id="ribbon" x2="1" y2="1"><stop stop-color="#789cff"/><stop offset="1" stop-color="#2c53bb"/></linearGradient>
+  </defs>
+  <path fill="url(#light)" d="M0 0h520v448H0z"/>
+  <path fill="url(#grid)" d="M0 0h520v448H0z"/>
+  <g stroke="#8babff" stroke-opacity=".23">
+    <path d="M-36 360 140 461 553 224M-34 330 141 431 553 193M-33 301 141 401 551 164M-36 270 141 371 551 135M-36 241 140 341 551 104M-36 210 140 311 551 74"/>
+    <path d="M-14 240 353 451M16 224l369 212M45 206l367 212M75 189l370 213M103 172l370 213M133 156l371 213M163 138l369 212M193 121l367 211"/>
+  </g>
+  <path d="m98 299 199-116 133 77-199 116z" fill="#0a1329" fill-opacity=".72" stroke="#5776b2"/>
+  <path d="m98 281 199-116 133 77-199 116z" fill="url(#panel)" stroke="#8baaff"/>
+  <path d="M98 281v18l133 77v-18z" fill="#182d62" stroke="#5776b2"/>
+  <path d="m231 358 199-116v18L231 376z" fill="url(#ribbon)" stroke="#5776b2"/>
+  <path d="m114 236 184-107 119 69-183 107z" fill="#82a6fc" fill-opacity=".15" stroke="#97b7ff" stroke-opacity=".75"/>
+  <path d="m114 236 35 21 184-108M173 271l184-108M202 287l184-107M159 210l121 69M204 184l120 70M251 156l120 69" stroke="#a9c4ff" stroke-opacity=".37"/>
+  <path d="m147 230 153-89 78 45-153 89z" fill="#122653" fill-opacity=".8" stroke="#bdceff" stroke-opacity=".72"/>
+  <path d="m225 275 153-89v12l-153 89z" fill="url(#ribbon)"/>
+  <path d="m150 221 148-86 73 42-147 86z" fill="url(#bright)"/>
+  <path d="m165 224 48 28 143-82M181 210l49 28 111-65M202 197l48 28 62-36" stroke="#627fc6" stroke-opacity=".52"/>
+  <path d="m182 229 37-22 26 3 40-23 18 1 34-20" stroke="#2452bb" stroke-width="3"/>
+  <g fill="#2255c6"><circle cx="182" cy="229" r="4"/><circle cx="219" cy="207" r="4"/><circle cx="245" cy="210" r="4"/><circle cx="285" cy="187" r="4"/><circle cx="337" cy="168" r="4"/></g>
+  <path d="M100 268v-60l23-14M418 228v-83l37-22M234 354v42l-39 23M295 129V84l30-17" stroke="#a5bfff" stroke-opacity=".7" stroke-dasharray="3 5"/>
+  <g fill="#bacdff"><circle cx="123" cy="194" r="3"/><circle cx="455" cy="123" r="3"/><circle cx="195" cy="419" r="3"/><circle cx="325" cy="67" r="3"/></g>
+</svg>
